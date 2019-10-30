@@ -1,0 +1,86 @@
+body {
+background-color: #9fdfcd;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+line-height: 1.8;
+margin: 20px 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+ }
+
+.carte-white {
+ background: white;
+ border-radius : 4px;
+ box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+ padding : 5px 5px;
+ margin: 20px
+ }
+
+h1 {
+color: #9fdfcd; 
+font-family:'Cuprum', sans-serif;
+font-size: 40px;
+text-align: center;
+}
+
+h2 {
+color: #baabda;
+font-family:'Cuprum', sans-serif;
+font-size: 30px;
+text-align: center;
+}
+
+.texte {
+line-height: 1.8;
+text-align: center;
+background-color: none;
+margin: 20px 0px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px
+}
+
+a{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+box-shadow: 0px 4px 12px rgb 0,0,0, 50%;
+}
+
+#image-border { 
+  border-radius: 80%;
+	border: 2px solid #9fdfcd;
+ }
+
+.fab {
+padding: 10px, 10px;
+color: #d79abc;
+font-size: 50px;
+padding: 15px, 15px;
+}
+
+.fas {
+padding: 20px, 20px;
+}
+
+#title-pink {
+color: #d79abc;
+}
+
+{}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px
